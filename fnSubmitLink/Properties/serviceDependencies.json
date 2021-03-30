@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureWebJobsStorage"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionString"
+    },
+    "appInsights1": {
+      "type": "appInsights",
+      "connectionId": "APPINSIGHTS_CONNECTIONSTRING"
+    }
+  }
+}
